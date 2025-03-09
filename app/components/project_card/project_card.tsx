@@ -41,7 +41,6 @@ const ProjectCard = ({
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
       className="relative group"
     >
-      {/* Project number on the left */}
       <div className="absolute -left-24 top-8 text-8xl font-extralight text-gray-800/50 hidden md:block">
         {id}
       </div>
@@ -51,9 +50,7 @@ const ProjectCard = ({
                     group-hover:border-gray-700/50 transition-all duration-500
                     shadow-[0_0_15px_rgba(0,0,0,0.1)]"
       >
-        {/* Project image container */}
         <div className="relative w-full aspect-[16/9] overflow-hidden">
-          {/* Browser-like toolbar */}
           <div className="absolute top-0 left-0 right-0 h-8 bg-gray-900/90 backdrop-blur-md flex items-center px-4 gap-2 z-10">
             <div className="flex gap-1.5">
               <div className="w-2.5 h-2.5 rounded-full bg-red-500/80" />
@@ -62,7 +59,6 @@ const ProjectCard = ({
             </div>
           </div>
 
-          {/* Project image */}
           <motion.img
             initial={{ scale: 1.2, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
@@ -74,7 +70,6 @@ const ProjectCard = ({
           />
         </div>
 
-        {/* Project info */}
         <div className="p-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -93,7 +88,6 @@ const ProjectCard = ({
             <p className="text-gray-400 max-w-2xl">{description}</p>
           </motion.div>
 
-          {/* Metrics */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -114,7 +108,6 @@ const ProjectCard = ({
               ))}
           </motion.div>
 
-          {/* Tags */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -132,7 +125,6 @@ const ProjectCard = ({
             ))}
           </motion.div>
 
-          {/* Links */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

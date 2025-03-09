@@ -100,6 +100,25 @@ const Portfolio = () => {
     },
     {
       id: "02",
+      title: "Browserbase",
+      subtitle: "CONTRACT SOFTWARE ENGINEER",
+      period: "Mar. 2025 - Present",
+      description:
+        "Collaborating with the Browserbase team to build a cool new tool :)",
+      tags: ["Browser Agents"],
+      imageSrc: "/browserbase.png",
+      links: {
+        // github: "#",
+        live: "https://browserbase.com",
+      },
+      metrics: {
+        // reliability: "+50%",
+        // latency: "-27%",
+        // "cognitive load": "-40%",
+      },
+    },
+    {
+      id: "03",
       title: "NASA SUITS",
       subtitle: "SOFTWARE ENGINEERING RESEARCH INTERN",
       period: "Sept. 2023 - May 2024",
@@ -117,7 +136,7 @@ const Portfolio = () => {
       },
     },
     {
-      id: "03",
+      id: "04",
       title: "UC Irvine, Donald Bren School of ICS",
       subtitle: "TEACHING ASSISTANT",
       period: "Mar. 2024 - Present",
