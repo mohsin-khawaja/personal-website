@@ -83,19 +83,19 @@ const Portfolio = () => {
   const experiences: Array<ProjectCardProps> = [
     {
       id: "01",
-      title: "Opennote",
-      subtitle: "CO-FOUNDER & FULL STACK ENGINEER",
+      title: "UC Berkeley College of Engineering",
+      subtitle: "Machine Learning Engineer & Nanotech Researcher / Intern",
       period: "Apr. 2024 - Present",
       description:
-        "The world's premier interactive education platform built specifically for students. 40,000+ users in < 4 weeks. VC-backed.",
-      tags: ["Python", "React", "TypeScript", "ML/AI"],
-      imageSrc: "/opennote.png",
+        "Conducted research on an exoskeleton project. Co-developed a machine learning algorithm using EEG brainwave data to detect user intent and improve motion control. Also built real-time signal classification models using Python, scikit-learn, TensorFlow, and MNE-Python, supporting neurotech applications for mobility and accessibility.",
+      tags: ["Python", "TensorFlow", "scikit-learn", "ML/AI"],
+      imageSrc: "/shutterstock_149303390.jpg",
       links: {
-        live: "https://opennote.me",
+        live: "https://github.com/mohsin-khawaja/UC-Berkeley-exoskeleton-brainwave-algorithm",
       },
       metrics: {
-        "audience reached": "4.6M+",
-        "launch month users": "40,000+",
+        "classification accuracy": "95%",
+        "response time": "<100ms"
       },
     },
     {
