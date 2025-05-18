@@ -308,7 +308,7 @@ const Portfolio = () => {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="text-5xl md:text-7xl font-extralight mb-6 tracking-tight leading-tight"
             >
-              Hey, I'm Rishi
+              Hey, I'm Mohsin
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -395,10 +395,10 @@ const Portfolio = () => {
                     <div>
                       <div className="text-sm text-gray-500">Email</div>
                       <a
-                        href="mailto:rishi@opennote.me"
+                        href="mailto:mohsinkhawaja10@gmail.com"
                         className="text-lg hover:text-slate-400 transition-colors"
                       >
-                          rishi@opennote.me
+                          mohsinkhawaja10@gmail.com
                       </a>
                     </div>
                   </div>
@@ -406,21 +406,21 @@ const Portfolio = () => {
                     <Globe className="text-violet-400" size={24} />
                     <div>
                       <div className="text-sm text-gray-500">Location</div>
-                      <div className="text-lg">Irvine, CA</div>
+                      <div className="text-lg">San Francisco Bay Area</div>
                     </div>
                   </div>
                 </div>
 
                 <div className="flex space-x-6">
                   <a
-                    href="https://github.com/hrishikesh-srihari"
+                    href="https://github.com/mohsin-khawaja"
                     className="text-gray-400 hover:text-white transition-colors"
                     aria-label="GitHub Profile"
                   >
                     <Github size={24} />
                   </a>
                   <a
-                    href="https://linkedin.com/in/hrishikesh-srihari"
+                    href="https://linkedin.com/in/mohsin-khawaja"
                     className="text-gray-400 hover:text-white transition-colors"
                     aria-label="LinkedIn Profile"
                   >
@@ -519,7 +519,7 @@ const Portfolio = () => {
                     Get in Touch
                   </a>
                   <a
-                    href="/Rishi_Srihari_Resume.pdf"
+                    href="/Mohsin Khawaja Resume.pdf"
                     className="px-6 py-3 border border-gray-700 hover:border-gray-600 rounded-lg transition-colors"
                   >
                     Download CV
@@ -559,7 +559,7 @@ const Portfolio = () => {
         <footer className="border-t border-gray-800/20">
           <div className="max-w-7xl mx-auto px-4 py-8">
             <div className="text-sm text-gray-500">
-              © {new Date().getFullYear()} Rishi Srihari. All rights reserved.
+              © {new Date().getFullYear()} Mohsin Khawaja. All rights reserved.
             </div>
           </div>
         </footer>

@@ -10,7 +10,7 @@ const Navbar = () => {
 
           <div className="flex items-center space-x-8">
             <a
-              href="https://linkedin.com/in/hrishikesh-srihari"
+              href="https://linkedin.com/in/mohsin-khawaja"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-2 text-gray-400 hover:text-white transition-colors relative"
@@ -21,7 +21,7 @@ const Navbar = () => {
               </span>
             </a>
             <a
-              href="https://github.com/hrishikesh-srihari"
+              href="https://github.com/mohsin-khawaja"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-2 text-gray-400 hover:text-white transition-colors relative"
@@ -33,7 +33,7 @@ const Navbar = () => {
             </a>
 
             <a
-              href="/Rishi_Srihari_Resume.pdf"
+              href="/Mohsin Khawaja Resume.pdf"
               rel="noopener noreferrer"
               className="group flex items-center gap-2 text-gray-400 hover:text-white transition-colors relative"
             >
