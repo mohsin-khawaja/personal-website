@@ -1,26 +1,103 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --foreground-rgb: 255, 255, 255;
+    --background-rgb: 15, 23, 42; /* slate-950 */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.9);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3b82f6; /* blue-500 */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb; /* blue-600 */
+}
+
+/* Smooth Transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+/* Simple reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace !important;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background: rgb(var(--background-rgb));
+  line-height: 1.5;
+  min-height: 100vh;
 }
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+h1, h2, h3 {
+  margin-top: 1rem;
+  color: white;
+}
+
+a {
+  color: #3b82f6; /* blue-500 */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #60a5fa; /* blue-400 */
+}
+
+.gradient-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #3b82f6, #60a5fa);
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-2 rounded-lg font-medium transition-colors;
+  }
+  
+  .btn-primary {
+    @apply bg-blue-500 text-white hover:bg-blue-600;
+  }
+  
+  .btn-outline {
+    @apply border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white;
+  }
+  
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 py-16 md:py-24;
+  }
+}
+
+/* Remove Tailwind base background override */
+/* @layer base {
+  body {
+    @apply bg-black text-white;
+  }
+} */
