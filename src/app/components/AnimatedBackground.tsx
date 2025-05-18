@@ -26,7 +26,7 @@ export default function AnimatedBackground() {
     // Animation variables
     let time = 0;
     const particles: Particle[] = [];
-    const particleCount = 120; // Increased particle count for more visibility
+    const particleCount = 150; // Matches Rishi's particle count
 
     class Particle {
       x: number = 0;
@@ -40,13 +40,13 @@ export default function AnimatedBackground() {
         if (!canvas) return;
         this.x = Math.random() * canvas.width;
         this.y = Math.random() * canvas.height;
-        this.size = Math.random() * 2.5 + 1; // Larger particles
-        this.speedX = Math.random() * 0.4 - 0.2; // Slower speed
-        this.speedY = Math.random() * 0.4 - 0.2; // Slower speed
+        this.size = Math.random() * 1.5 + 0.5; // Smaller particles like Rishi's site
+        this.speedX = Math.random() * 0.2 - 0.1; // Slower speed for gentle movement
+        this.speedY = Math.random() * 0.2 - 0.1; // Slower speed for gentle movement
         
-        // Brighter blue tint colors for particles
-        const opacity = Math.random() * 0.7 + 0.3; // Higher opacity
-        this.color = `rgba(140, 220, 255, ${opacity})`;
+        // Dark blue to lighter blue particles with low opacity
+        const opacity = Math.random() * 0.3 + 0.05; // Very low opacity like Rishi's site
+        this.color = `rgba(100, 130, 180, ${opacity})`;
       }
 
       update() {
@@ -74,16 +74,16 @@ export default function AnimatedBackground() {
       particles.push(new Particle());
     }
 
-    // First fill with solid background
-    ctx.fillStyle = '#061018'; // Darker blue background
+    // First fill with solid background - matching Rishi's dark background
+    ctx.fillStyle = '#121212'; // Very dark background
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
     // Animation loop
     const animate = () => {
       if (!ctx || !canvas) return;
       
-      // Clear with slate color and slight transparency for trail effect
-      ctx.fillStyle = 'rgba(6, 16, 24, 0.2)'; // Darker blue with transparency
+      // Clear with very dark color and high transparency for subtle trail effect
+      ctx.fillStyle = 'rgba(18, 18, 18, 0.5)'; // Dark with high transparency
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
       // Update and draw particles
@@ -92,17 +92,17 @@ export default function AnimatedBackground() {
         particle.draw();
       });
 
-      // Draw connections between particles (thinner, blue-tinted)
+      // Draw connections between particles (very subtle, thin lines)
       for (let i = 0; i < particles.length; i++) {
         for (let j = i + 1; j < particles.length; j++) {
           const dx = particles[i].x - particles[j].x;
           const dy = particles[i].y - particles[j].y;
           const distance = Math.sqrt(dx * dx + dy * dy);
 
-          if (distance < 150) { // Increased connection distance
-            const opacity = 0.3 - distance / 1000;
-            ctx.strokeStyle = `rgba(140, 220, 255, ${opacity})`;
-            ctx.lineWidth = 0.8; // Slightly thicker lines
+          if (distance < 100) { // Shorter connection distance
+            const opacity = 0.05 - distance / 5000; // Very low opacity like Rishi's site
+            ctx.strokeStyle = `rgba(100, 140, 200, ${opacity})`;
+            ctx.lineWidth = 0.2; // Thinner lines like Rishi's site
             ctx.beginPath();
             ctx.moveTo(particles[i].x, particles[i].y);
             ctx.lineTo(particles[j].x, particles[j].y);
@@ -111,7 +111,7 @@ export default function AnimatedBackground() {
         }
       }
 
-      time += 0.01;
+      time += 0.005; // Slower time progression
       requestAnimationFrame(animate);
     };
 
@@ -129,36 +129,27 @@ export default function AnimatedBackground() {
         ref={canvasRef}
         className="absolute top-0 left-0 w-full h-full"
         style={{ 
-          background: 'linear-gradient(to bottom, #061018, #050d14)', // Darker blue background
+          background: 'linear-gradient(to bottom right, #121212, #1a1a1a)', // Matching Rishi's gradient
         }}
       />
       
-      {/* Top navigation like Rishi's site */}
+      {/* Top navigation links matching Rishi's site */}
       <div className="absolute top-0 left-0 w-full px-8 md:px-16 py-8 flex justify-between items-center z-10">
         <div className="text-white text-base md:text-lg font-normal">Mohsin Khawaja</div>
-        <div className="hidden md:flex space-x-10 text-sm text-gray-300">
-          <a href="#about" className="hover:text-white transition-colors">About</a>
-          <a href="#experience" className="hover:text-white transition-colors">Experience</a>
-          <a href="#projects" className="hover:text-white transition-colors">Projects</a>
-          <a href="#contact" className="hover:text-white transition-colors">Contact</a>
-          <a href="https://linkedin.com/mohsin-khawaja" className="hover:text-white transition-colors">LinkedIn</a>
+        <div className="hidden md:flex space-x-10 text-sm text-gray-400">
+          <a href="https://linkedin.com/in/mohsin-khawaja" className="hover:text-white transition-colors">Linkedin</a>
           <a href="https://github.com/mohsin-khawaja" className="hover:text-white transition-colors">GitHub</a>
           <a href="#" className="hover:text-white transition-colors">Resumé</a>
         </div>
       </div>
       
-      {/* Responsive navigation for mobile */}
-      <div className="absolute bottom-8 left-0 w-full md:hidden flex justify-center space-x-4 text-xs text-gray-300 z-10">
-        <a href="#about" className="hover:text-white transition-colors">About</a>
-        <a href="#experience" className="hover:text-white transition-colors">Experience</a>
-        <a href="#projects" className="hover:text-white transition-colors">Projects</a>
-        <a href="#contact" className="hover:text-white transition-colors">Contact</a>
-        <a href="https://linkedin.com/mohsin-khawaja" className="hover:text-white transition-colors">LinkedIn</a>
-        <a href="https://github.com/mohsin-khawaja" className="hover:text-white transition-colors">GitHub</a>
+      {/* Responsive navigation for mobile - hidden on Rishi's site */}
+      <div className="md:hidden absolute top-0 right-0 p-4 z-10">
+        {/* Mobile menu button would go here */}
       </div>
       
-      {/* Main content positioned like Rishi's site */}
-      <div className="absolute inset-0 flex flex-col justify-center px-8 md:px-16 z-10">
+      {/* Main content positioned exactly like Rishi's site */}
+      <div className="absolute inset-0 flex flex-col justify-center items-start px-8 md:px-16 z-10">
         <div className="mt-20 md:mt-0 max-w-3xl">
           <motion.p 
             initial={{ opacity: 0 }}
@@ -166,7 +157,7 @@ export default function AnimatedBackground() {
             transition={{ duration: 0.5 }}
             className="text-gray-400 text-sm tracking-wider mb-3"
           >
-            AI RESEARCHER & MACHINE LEARNING ENGINEER
+            PUSHING THE BOUNDARIES OF DIGITAL EXPERIENCES
           </motion.p>
           
           <motion.h1 
@@ -184,7 +175,7 @@ export default function AnimatedBackground() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-lg md:text-xl text-gray-300 max-w-2xl"
           >
-            B.S. in Cognitive Science: Machine Learning & Neural Computation from UC San Diego. Passionate about AI algorithms and machine learning applications.
+            I love to build impactful full-stack projects with modern technologies and high-performance.
           </motion.p>
         </div>
       </div>
