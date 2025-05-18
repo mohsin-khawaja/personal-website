@@ -24,8 +24,8 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ['"Courier New"', 'Courier', 'monospace'],
-        mono: ['"Courier New"', 'Courier', 'monospace'],
+        sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
+        mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
       },
       animation: {
         'gradient': 'gradient 8s linear infinite',
