@@ -100,8 +100,8 @@ const Portfolio = () => {
     },
     {
       id: "02",
-      title: "Browserbase",
-      subtitle: "CONTRACT SOFTWARE ENGINEER",
+      title: "InterestingSoup",
+      subtitle: "Software Engineering Intern",
       period: "Mar. 2025 - Present",
       description:
         "Collaborating with the Browserbase team to build a cool new tool :)",
