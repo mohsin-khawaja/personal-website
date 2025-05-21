@@ -127,7 +127,7 @@ const Portfolio = () => {
       tags: ["Leadership", "Networking", "Finance", "Computer Science", "Entrepreneurship"],
       imageSrc: "/mtc-ucsd.png",
       links: {
-        live: "https://www.mtcucsd.org/",
+        live: "https://www.muslimtech.org/",
       },
       metrics: {
         "members reached": "100+",
@@ -139,74 +139,38 @@ const Portfolio = () => {
   const projects: Array<ProjectCardProps> = [
     {
     id: "01",
-    title: "Runway",
-    subtitle: "Vercel for AI Models",
+    title: "NeuroFocus",
+    subtitle: "Using EEG and AI to Classify Human Attention States",
     description:
-        "Generate full LoRA datasets, train any model on H100 GPUs, and deploy—to our sandbox, an OpenAI API SDK endpoint to request, or download the weights to deploy yourself. All using natural language.",
-    tags: ["Perplexity", "Websocket", "Browserbase/Stagehand", "ML/AI", "Next.js"],
-    imageSrc: "/runway.png",
+        "NeuroFocus is a machine learning project that classifies cognitive attention states—Focused, Distracted, and Overstimulated—by analyzing EEG data from the DEAP dataset. I built a complete ML pipeline that extracts key features from EEG frequency bands (Theta, Alpha, Beta, Gamma) and applies models like SVM, LSTM, and CNN to achieve up to 90% classification accuracy. The system is designed with real-world applications in mind, such as mental focus tracking, neurofeedback, and brain-computer interface (BCI) systems. This project highlights the intersection of neuroscience and AI, showing how neural signal processing can be used for accurate, real-time cognitive state monitoring.",
+    tags: ["EEG", "ML/AI", "Python", "TensorFlow", "scikit-learn"],
+    imageSrc: "/neurofocus.jpg",
     links: {
-        github: "https://github.com/abhi-arya1/runway",
-        live: "https://runway0.vercel.app/",
+        github: "https://github.com/mohsin-khawaja/NeuroFocus",
     },
     metrics: {
-        "audience reached": "10,000+",
+        "classification accuracy": "90%",
     },
       },
     {
       id: "02",
-      title: "Sift",
-      subtitle: "Supercharged Semantic Search",
-      description:
-        "Simultaneously search files in your filesystem, GitHub, Notion, Slack, Discord, and the Google Suite, simply with natural language. ",
-      tags: [
-        "Tauri",
-        "React",
-        "Rust",
-        "Multimodal Vector Embeddings",
-        "Python",
-      ],
-      imageSrc: "/sift.png",
-      links: {
-        github: "https://github.com/abhi-arya1/sift",
-      },
-      metrics: {
-        "supported document base": "200,000+",
-        "search speed": "< 1s",
-      },
+      title: "Coming Soon",
+      subtitle: "",
+      description: "",
+      tags: [],
+      imageSrc: "",
+      links: {},
+      metrics: {},
     },
     {
       id: "03",
-      title: "Coauthor",
-      subtitle: "SFHACKS '24 WINNER",
-      description:
-        "RAG-based research collaboration platform with academic source searching, using cloud-based data management.",
-      tags: ["TypeScript", "WebSocket", "Mistral AI", "GCP", "Selenium"],
-      imageSrc: "/coauthor.png",
-      links: {
-        github: "https://github.com/abhi-arya1/coauthor",
-        live: "https://coauthor.vercel.app/",
-      },
-      metrics: {
-        "supported workspaces": "500+",
-        "research project efficiency improvement": "60%",
-      },
-    },
-    {
-      id: "04",
-      title: "ZotConnect",
-      subtitle: "IRVINEHACKS '24 WINNER",
-      description:
-        "Academic networking platform with AI-powered resume optimization and job matching using Google Cloud Vertex API.",
-      tags: ["Next.js", "React", "Google Cloud", "ML/AI", "TypeScript"],
-      imageSrc: "/zotconnect.png",
-      links: {
-        github: "https://github.com/abhi-arya1/zotconnect",
-        live: "https://zotconnect.vercel.app/",
-      },
-      metrics: {
-        "supported concurrent users": "500+",
-      },
+      title: "Coming Soon",
+      subtitle: "",
+      description: "",
+      tags: [],
+      imageSrc: "",
+      links: {},
+      metrics: {},
     },
   ];
 
