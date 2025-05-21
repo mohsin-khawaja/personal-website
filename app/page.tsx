@@ -430,17 +430,13 @@ const Portfolio = () => {
             <div className="grid md:grid-cols-2 gap-16">
               <div className="space-y-6">
                 <p className="text-gray-400 text-lg">
-                  I'm a full-stack developer with a drive for building
-                  beautiful, functional, and scalable web applications. I love
-                  to jump into projects and learn from those around me to refine
-                  my skills as a student and developer.
+                Hi, I’m Mohsin Khawaja, a machine learning enthusiast, developer, and creative thinker passionate about building meaningful, human-centered technology. I'm currently completing my degree at UC San Diego, where I’ve been deeply involved in research, leadership, and hands-on technical projects.
                 </p>
                 <p className="text-gray-400 text-lg">
-                  Apart from my work, I'm a huge runner and love to explore new
-                  genres of music, so feel free to reach out and send me your
-                  favorite songs or talk about running (check out my{" "}
+                Apart from work, I enjoy staying active through soccer, tennis, biking, and running. I’m also passionate about traveling to new places and winding down with a good book whenever I can.
+                   (check out my{" "}
                   <a
-                    href="https://www.strava.com/athletes/rishi_srihari"
+                    href="https://www.strava.com/athletes/159204247"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center group text-violet-300 hover:text-white transition-colors relative px-1"
