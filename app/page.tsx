@@ -243,14 +243,23 @@ const Portfolio = () => {
             >
               PUSHING THE BOUNDARIES OF DIGITAL EXPERIENCES
             </motion.div>
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.4 }}
-              className="text-5xl md:text-7xl font-extralight mb-6 tracking-tight leading-tight"
-            >
-              Hey, I'm Mohsin
-            </motion.h1>
+            <div className="flex items-center space-x-6 mb-8">
+              <div className="bg-zinc-900/60 rounded-full p-1 shadow-lg">
+                <img
+                  src="/mohsin.png.JPG"
+                  alt="Mohsin Khawaja"
+                  className="w-36 h-36 rounded-full object-cover object-[50%_55%] border-2 border-violet-400"
+                />
+              </div>
+              <motion.h1
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.4 }}
+                className="text-5xl md:text-7xl font-extralight tracking-tight leading-tight"
+              >
+                Hey, I'm Mohsin
+              </motion.h1>
+            </div>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -430,10 +439,10 @@ const Portfolio = () => {
             <div className="grid md:grid-cols-2 gap-16">
               <div className="space-y-6">
                 <p className="text-gray-400 text-lg">
-                Hi, I’m Mohsin Khawaja, a machine learning enthusiast, developer, and creative thinker passionate about building meaningful, human-centered technology. I'm currently completing my degree at UC San Diego, where I’ve been deeply involved in research, leadership, and hands-on technical projects.
+                Hi, I'm Mohsin Khawaja, a machine learning enthusiast, developer, and creative thinker passionate about building meaningful, human-centered technology. I'm currently completing my degree at UC San Diego, where I've been deeply involved in research, leadership, and hands-on technical projects.
                 </p>
                 <p className="text-gray-400 text-lg">
-                Apart from work, I enjoy staying active through soccer, tennis, biking, and running. I’m also passionate about traveling to new places and winding down with a good book whenever I can.
+                Apart from work, I enjoy staying active through soccer, tennis, biking, and running. I'm also passionate about traveling to new places and winding down with a good book whenever I can.
                    (check out my{" "}
                   <a
                     href="https://www.strava.com/athletes/159204247"
