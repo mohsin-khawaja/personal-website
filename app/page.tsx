@@ -85,7 +85,7 @@ const Portfolio = () => {
       id: "01",
       title: "UC Berkeley College of Engineering",
       subtitle: "Machine Learning Engineer & Nanotech Researcher / Intern",
-      period: "Apr. 2024 - Present",
+      period: "June 2024 - Present",
       description:
         "Conducted research on an exoskeleton project. Co-developed a machine learning algorithm using EEG brainwave data to detect user intent and improve motion control. Also built real-time signal classification models using Python, scikit-learn, TensorFlow, and MNE-Python, supporting neurotech applications for mobility and accessibility.",
       tags: ["Python", "TensorFlow", "scikit-learn", "ML/AI"],
@@ -102,14 +102,14 @@ const Portfolio = () => {
       id: "02",
       title: "InterestingSoup",
       subtitle: "Software Engineering Intern",
-      period: "Mar. 2025 - Present",
+      period: "June 2021 - January 2022",
       description:
-        "Collaborating with the Browserbase team to build a cool new tool :)",
-      tags: ["Browser Agents"],
-      imageSrc: "/browserbase.png",
+        "Engineered and deployed scalable RESTful APIs using Python and Flask, reducing response time by 30% and supporting a 20% increase in concurrent users and implemented full-stack development. Partnered with cross-functional teams to build and integrate a real-time analytics dashboard using React and Chart.js, enhancing data visibility and enabling faster decision-making.",
+      tags: ["Browser Agents", "Full-Stack Development", "React", "Python", "Flask"],
+      imageSrc: "/interestingsoup.png",
       links: {
         // github: "#",
-        live: "https://browserbase.com",
+        live: "https://interestingsoup.com/",
       },
       metrics: {
         // reliability: "+50%",
@@ -119,43 +119,20 @@ const Portfolio = () => {
     },
     {
       id: "03",
-      title: "NASA SUITS",
-      subtitle: "SOFTWARE ENGINEERING RESEARCH INTERN",
-      period: "Sept. 2023 - May 2024",
+      title: "Muslim Tech Collaborative @ UC San Diego",
+      subtitle: "Founder & VP",
+      period: "May 2023 - June 2024",
       description:
-        "Led Mission Control Console development integrating biomedical sensors and navigation systems. Collaborated with Artemis astronauts during on-site testing for spacewalk activity optimization.",
-      tags: ["Python", "Real-time Systems", "3D Mapping Algorithms"],
-      imageSrc: "/nasa_suits.png",
+        "Founded and led a student organization focused on empowering Muslim students in tech. Secured funding for events and managed logistics across workshops, speaker sessions, and networking socials. Organized hands-on workshops covering web development and machine learning to help students build practical skills and portfolios. Created inclusive social events to foster community and connect members with industry professionals.",
+      tags: ["Leadership", "Networking", "Finance", "Computer Science", "Entrepreneurship"],
+      imageSrc: "/MTC UCSD.png",
       links: {
-        github: "#",
+        live: "https://www.mtcucsd.org/",
       },
       metrics: {
-        reliability: "+50%",
-        latency: "-27%",
-        "cognitive load": "-40%",
-      },
-    },
-    {
-      id: "04",
-      title: "UC Irvine, Donald Bren School of ICS",
-      subtitle: "TEACHING ASSISTANT",
-      period: "Mar. 2024 - Present",
-      description:
-        "Teaching Assistant for Boolean Logic and Discrete Structures, delivering curriculum content to 400+ students. Collaborate on lecture and test content preparation with course staff, and host weekly office hours.",
-      tags: [
-        "Boolean Logic",
-        "Discrete Math",
-        "Teaching",
-        "Curriculum Development",
-      ],
-      imageSrc: "/uci.jpg",
-      links: {
-        company: "#",
-      },
-      metrics: {
-        students: "400+",
-        "increased office hour attendance": "40%",
-      },
+        "members reached": "100+",
+        "events organized": "15+"
+      }
     },
   ];
 
