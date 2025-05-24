@@ -464,12 +464,6 @@ const Portfolio = () => {
                   >
                     Get in Touch
                   </a>
-                  <a
-                    href="/Mohsin Khawaja Resume.pdf"
-                    className="px-6 py-3 border border-gray-700 hover:border-gray-600 rounded-lg transition-colors"
-                  >
-                    Download CV
-                  </a>
                 </div>
               </div>
 
