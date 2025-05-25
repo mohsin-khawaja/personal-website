@@ -3,7 +3,7 @@ export default function Head() {
     <>
       <title>Mohsin Khawaja</title>
       <meta name="description" content="Personal portfolio website showcasing my projects and experience" />
-      <link rel="icon" href="/favicon.png" type="image/png" />
+      <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     </>
   );
 } 
