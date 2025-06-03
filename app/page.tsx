@@ -496,6 +496,134 @@ const Portfolio = () => {
           </div>
         </section>
 
+        <section id="photos" className="relative min-h-screen py-32">
+          <GradientBlob position="bottom-left" />
+          <div className="max-w-7xl mx-auto px-4 z-20 relative">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="space-y-4 pb-4"
+            >
+              <div className="mono text-sm text-gray-500 mb-4 tracking-widest">
+                LIFE IN PICTURES
+              </div>
+              <h2 className="text-4xl md:text-5xl font-extralight mb-16 tracking-tight">
+                PHOTO GALLERY
+              </h2>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+            >
+              {/* San Francisco */}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+                className="relative aspect-square rounded-lg overflow-hidden bg-gray-800/30 backdrop-blur-md border border-gray-800/30 group cursor-pointer"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="flex items-center justify-center h-full text-gray-500">
+                  <div className="text-center">
+                    <div className="text-6xl mb-2">🌉</div>
+                    <div className="text-sm">San Francisco Adventures</div>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Family */}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+                className="relative aspect-square rounded-lg overflow-hidden bg-gray-800/30 backdrop-blur-md border border-gray-800/30 group cursor-pointer"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="flex items-center justify-center h-full text-gray-500">
+                  <div className="text-center">
+                    <div className="text-6xl mb-2">👨‍👩‍👦</div>
+                    <div className="text-sm">Family Moments</div>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* UC San Diego */}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+                className="relative aspect-square rounded-lg overflow-hidden bg-gray-800/30 backdrop-blur-md border border-gray-800/30 group cursor-pointer"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="flex items-center justify-center h-full text-gray-500">
+                  <div className="text-center">
+                    <div className="text-6xl mb-2">🌊</div>
+                    <div className="text-sm">UCSD Life</div>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Friends */}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+                className="relative aspect-square rounded-lg overflow-hidden bg-gray-800/30 backdrop-blur-md border border-gray-800/30 group cursor-pointer"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="flex items-center justify-center h-full text-gray-500">
+                  <div className="text-center">
+                    <div className="text-6xl mb-2">🫂</div>
+                    <div className="text-sm">Friends & Community</div>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Nature & Hiking */}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+                className="relative aspect-square rounded-lg overflow-hidden bg-gray-800/30 backdrop-blur-md border border-gray-800/30 group cursor-pointer"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="flex items-center justify-center h-full text-gray-500">
+                  <div className="text-center">
+                    <div className="text-6xl mb-2">🏔️</div>
+                    <div className="text-sm">California Trails</div>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Travel */}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+                className="relative aspect-square rounded-lg overflow-hidden bg-gray-800/30 backdrop-blur-md border border-gray-800/30 group cursor-pointer"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="flex items-center justify-center h-full text-gray-500">
+                  <div className="text-center">
+                    <div className="text-6xl mb-2">✈️</div>
+                    <div className="text-sm">Travel Adventures</div>
+                  </div>
+                </div>
+              </motion.div>
+            </motion.div>
+
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+              className="text-gray-400 text-lg text-center mt-12 max-w-2xl mx-auto"
+            >
+              Places faces and moments through my lens.
+            </motion.p>
+          </div>
+        </section>
+
         <footer className="border-t border-gray-800/20">
           <div className="max-w-7xl mx-auto px-4 py-8">
             <div className="text-sm text-gray-500">
