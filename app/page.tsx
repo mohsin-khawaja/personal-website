@@ -682,7 +682,7 @@ const Portfolio = () => {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="text-gray-400 text-lg text-center mt-12 max-w-2xl mx-auto"
             >
-              Places faces and moments through my lens.
+             
             </motion.p>
           </div>
         </section>
