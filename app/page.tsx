@@ -530,6 +530,7 @@ const Portfolio = () => {
                 <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <img
                   src="/IMG_1985.jpg"
+                  alt="Mountain Adventure"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4">
@@ -545,8 +546,8 @@ const Portfolio = () => {
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <img
-                  src="/IMG_8661.JPG"
-                  alt="Friends by the Ocean"
+                  src="/IMG_7642.JPG"
+                  alt="Friends & Sunset"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4">
