@@ -610,6 +610,51 @@ const Portfolio = () => {
                   </div>
                 </div>
               </motion.div>
+
+              {/* Tech & Projects */}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+                className="relative aspect-square rounded-lg overflow-hidden bg-gray-800/30 backdrop-blur-md border border-gray-800/30 group cursor-pointer"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="flex items-center justify-center h-full text-gray-500">
+                  <div className="text-center">
+                    <div className="text-6xl mb-2">💻</div>
+                    <div className="text-sm">Tech & Projects</div>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Food & Culture */}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+                className="relative aspect-square rounded-lg overflow-hidden bg-gray-800/30 backdrop-blur-md border border-gray-800/30 group cursor-pointer"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="flex items-center justify-center h-full text-gray-500">
+                  <div className="text-center">
+                    <div className="text-6xl mb-2">🍕</div>
+                    <div className="text-sm">Food & Culture</div>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Sports & Activities */}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+                className="relative aspect-square rounded-lg overflow-hidden bg-gray-800/30 backdrop-blur-md border border-gray-800/30 group cursor-pointer"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="flex items-center justify-center h-full text-gray-500">
+                  <div className="text-center">
+                    <div className="text-6xl mb-2">⚽</div>
+                    <div className="text-sm">Sports & Activities</div>
+                  </div>
+                </div>
+              </motion.div>
             </motion.div>
 
             <motion.p
