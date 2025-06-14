@@ -154,13 +154,20 @@ const Portfolio = () => {
       },
     {
       id: "02",
-      title: "Coming Soon",
-      subtitle: "",
-      description: "",
-      tags: [],
-      imageSrc: "",
-      links: {},
-      metrics: {},
+      title: "RL-LSTM Trading Agent",
+      subtitle: "Real-time Financial Trading with Deep Learning & Reinforcement Learning",
+      description:
+        "A real-time financial trading system that combines deep learning with reinforcement learning to predict market movements and execute trades. I designed and implemented a hybrid architecture using a Bidirectional LSTM for price forecasting and a Deep Q-Network for action optimization. The system achieved 94.2% prediction accuracy, a 2.52 Sharpe ratio, and a 79.4% win rate across 26+ experiments. Built with PyTorch and deployed on Vercel, the project features a live dashboard for visualizing trading decisions, performance, and risk metrics. Full implementation is open-source and integrates custom risk management logic, real-time data pipelines, and an interactive web demo.",
+             tags: ["PyTorch", "LSTM", "Deep Q-Network", "RL", "Trading", "Blockchain", "Crypto", "ML/AI"],
+             imageSrc: "/trading-dashboard.png",
+      links: {
+        live: "https://rl-lstm-ai-trading-agent-3kuk24u4s-mohsin-khawajas-projects.vercel.app/",
+      },
+      metrics: {
+        "prediction accuracy": "94.2%",
+        "Sharpe ratio": "2.52",
+        "win rate": "79.4%"
+      },
     },
     {
       id: "03",
