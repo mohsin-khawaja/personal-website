@@ -162,6 +162,7 @@ const Portfolio = () => {
              imageSrc: "/trading-dashboard.png",
       links: {
         live: "https://rl-lstm-ai-trading-agent-3kuk24u4s-mohsin-khawajas-projects.vercel.app/",
+        report: "/rl-lstm-trading-report.pdf",
       },
       metrics: {
         "prediction accuracy": "94.2%",

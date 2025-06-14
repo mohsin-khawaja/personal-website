@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Github, Globe } from "lucide-react";
+import { Github, Globe, FileText } from "lucide-react";
 
 type MetricsType = {
   [key: string]: string | undefined;
@@ -19,6 +19,7 @@ interface ProjectCardProps {
     github?: string;
     live?: string;
     company?: string;
+    report?: string;
   };
 }
 
@@ -148,6 +149,17 @@ const ProjectCard = ({
               >
                 <Globe size={18} />
                 <span>Live</span>
+              </a>
+            )}
+            {links.report && (
+              <a
+                href={links.report}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors px-4 py-2 rounded-md bg-gray-800/30 border border-gray-700/20"
+              >
+                <FileText size={18} />
+                <span>Report</span>
               </a>
             )}
           </motion.div>
