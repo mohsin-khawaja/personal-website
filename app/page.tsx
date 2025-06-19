@@ -254,7 +254,7 @@ const Portfolio = () => {
             <div className="flex items-center space-x-6 mb-8">
               <div className="bg-zinc-900/60 rounded-full p-1 shadow-lg">
                 <img
-                  src="/mohsin.png.JPG"
+                  src="/mohsin-new.jpg"
                   alt="Mohsin Khawaja"
                   className="w-36 h-36 rounded-full object-cover object-[50%_55%] border-2 border-violet-400"
                 />
