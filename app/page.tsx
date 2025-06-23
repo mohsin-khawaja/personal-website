@@ -172,13 +172,19 @@ const Portfolio = () => {
     },
     {
       id: "03",
-      title: "Coming Soon",
-      subtitle: "",
-      description: "",
-      tags: [],
-      imageSrc: "",
-      links: {},
-      metrics: {},
+      title: "LLM Sensitivity Evaluation in Political Contexts",
+      subtitle: "Analyzing Large Language Model Political Bias & Response Consistency",
+      description:
+        "This project explores how large language models (LLMs) respond to politically sensitive prompts, leveraging techniques in Natural Language Processing (NLP) and Automatic Prompt Evaluation (APE). The pipeline systematically probes LLMs with ideologically varied inputs and quantifies their response consistency and sensitivity. It offers a practical framework for analyzing model alignment, political bias, and linguistic stability—critical challenges in modern NLP. The insights contribute to building more robust, transparent, and socially-aware AI systems.",
+      tags: ["NLP", "LLM", "Political Analysis", "Bias Detection", "Python", "ML/AI", "APE"],
+      imageSrc: "/neurofocus.jpg",
+      links: {
+        github: "https://github.com/mohsin-khawaja/LLM-Sensitivity-Eval-to-Politics",
+      },
+      metrics: {
+        "models analyzed": "5+",
+        "prompt variations": "100+",
+      },
     },
   ];
 
