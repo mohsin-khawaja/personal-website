@@ -407,6 +407,7 @@ const Portfolio = () => {
                 <form
                   action="https://formspree.io/f/xqabwdbw"
                   method="POST"
+                  target="_blank"
                   className="space-y-6"
                 >
                   <div className="space-y-2">
