@@ -453,7 +453,10 @@ const Portfolio = () => {
             <div className="grid md:grid-cols-2 gap-16">
               <div className="space-y-6">
                 <p className="text-gray-400 text-lg">
-                Hi, I'm Mohsin Khawaja, a machine learning enthusiast, developer, and creative thinker passionate about building meaningful, human-centered technology. I'm currently completing my degree at UC San Diego, where I've been deeply involved in research, leadership, and hands-on technical projects.
+                I completed my undergrad at UC San Diego in Cognitive Science (Machine Learning) and Computer Science. I love building and scaling AI projects.
+                </p>
+                <p className="text-gray-400 text-lg">
+                I am a builder. I create software, engage in entrepreneurial ventures, lead communities, and challenge myself through fitness. Whether it's coding or CrossFit, I appreciate the struggle and tend to fall in love with the process.
                 </p>
                 <p className="text-gray-400 text-lg">
                 Apart from work, I enjoy staying active through soccer, tennis, biking, and running. I'm also passionate about traveling to new places and winding down with a good book whenever I can.
