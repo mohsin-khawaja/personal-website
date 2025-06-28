@@ -255,7 +255,7 @@ const Portfolio = () => {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="mono text-sm text-gray-500 mb-4 tracking-widest"
             >
-              PUSHING THE BOUNDARIES OF DIGITAL EXPERIENCES
+              PERSISTENCE & INNOVATION
             </motion.div>
             <div className="flex items-center space-x-6 mb-8">
               <div className="bg-zinc-900/60 rounded-full p-1 shadow-lg">
@@ -280,8 +280,7 @@ const Portfolio = () => {
               transition={{ duration: 0.5, delay: 0.5 }}
               className="text-gray-400 text-xl md:text-2xl max-w-2xl mb-8 font-light"
             >
-              I love to build impactful full-stack projects with modern
-              technologies and high-performance.
+             I am a builder, I create software, engage in entrepreneurial ventures, lead communities, and challenge myself through fitness.
             </motion.p>
           </motion.div>
         </section>
