@@ -453,7 +453,7 @@ const Portfolio = () => {
             <div className="grid md:grid-cols-2 gap-16">
               <div className="space-y-6">
                 <p className="text-gray-400 text-lg">
-                I completed my undergrad at UC San Diego in Cognitive Science (Machine Learning) and Computer Science. I love building and scaling AI projects.
+                I grew up in the San Francisco Bay Area. I completed my undergrad at UC San Diego in Cognitive Science (Machine Learning) and Computer Science. I love building and scaling AI projects.
                 </p>
                 <p className="text-gray-400 text-lg">
                 I am a builder. I create software, engage in entrepreneurial ventures, lead communities, and challenge myself through fitness. Whether it's coding or CrossFit, I appreciate the struggle and tend to fall in love with the process.
