@@ -355,7 +355,13 @@ const Portfolio = () => {
               <div className="space-y-8">
                 <div className="space-y-6">
                   <div className="flex items-center space-x-4">
-                    <Mail className="text-violet-400" size={24} />
+                    <a
+                      href="mailto:mohsinkhawaja10@gmail.com"
+                      className="text-violet-400 hover:text-violet-300 transition-colors"
+                      aria-label="Send email to mohsinkhawaja10@gmail.com"
+                    >
+                      <Mail size={24} />
+                    </a>
                     <div>
                       <div className="text-sm text-gray-500">Email</div>
                       <a
@@ -378,6 +384,8 @@ const Portfolio = () => {
                 <div className="flex space-x-6">
                   <a
                     href="https://github.com/mohsin-khawaja"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white transition-colors"
                     aria-label="GitHub Profile"
                   >
@@ -385,6 +393,8 @@ const Portfolio = () => {
                   </a>
                   <a
                     href="https://linkedin.com/in/mohsin-khawaja"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white transition-colors"
                     aria-label="LinkedIn Profile"
                   >

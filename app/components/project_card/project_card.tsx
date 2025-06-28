@@ -136,6 +136,8 @@ const ProjectCard = ({
             {links.github && (
               <a
                 href={links.github}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors px-4 py-2 rounded-md bg-gray-800/30 border border-gray-700/20"
               >
                 <Github size={18} />
@@ -145,6 +147,8 @@ const ProjectCard = ({
             {links.live && (
               <a
                 href={links.live}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors px-4 py-2 rounded-md bg-gray-800/30 border border-gray-700/20"
               >
                 <Globe size={18} />
