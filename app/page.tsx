@@ -394,7 +394,11 @@ const Portfolio = () => {
               </div>
 
               <div className="bg-gray-900/30 backdrop-blur-md rounded-lg p-8 border border-gray-800/30">
-                <form className="space-y-6">
+                <form
+                  action="https://formspree.io/f/xqabwdbw"
+                  method="POST"
+                  className="space-y-6"
+                >
                   <div className="space-y-2">
                     <label htmlFor="name" className="text-sm text-gray-400">
                       Name
@@ -402,8 +406,10 @@ const Portfolio = () => {
                     <input
                       type="text"
                       id="name"
+                      name="name"
                       className="w-full bg-gray-800/50 rounded-lg border border-gray-700/30 px-4 py-3 focus:outline-none focus:border-violet-400 transition-colors"
                       placeholder="Your name"
+                      required
                     />
                   </div>
                   <div className="space-y-2">
@@ -413,8 +419,10 @@ const Portfolio = () => {
                     <input
                       type="email"
                       id="email"
+                      name="email"
                       className="w-full bg-gray-800/50 rounded-lg border border-gray-700/30 px-4 py-3 focus:outline-none focus:border-violet-400 transition-colors"
                       placeholder="your.email@example.com"
+                      required
                     />
                   </div>
                   <div className="space-y-2">
@@ -423,9 +431,11 @@ const Portfolio = () => {
                     </label>
                     <textarea
                       id="message"
+                      name="message"
                       rows={5}
                       className="w-full bg-gray-800/50 rounded-lg border border-gray-700/30 px-4 py-3 focus:outline-none focus:border-violet-400 transition-colors"
                       placeholder="Your message"
+                      required
                     />
                   </div>
                   <button
