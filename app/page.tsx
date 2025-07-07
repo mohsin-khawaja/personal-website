@@ -154,14 +154,14 @@ const Portfolio = () => {
       },
     {
       id: "02",
-      title: "RL-LSTM Trading Agent",
-      subtitle: "Real-time Financial Trading with Deep Learning & Reinforcement Learning",
+      title: "EvoScope",
+      subtitle: "Advanced AI Trading System with LSTM Models & RL Agents",
       description:
-        "A real-time financial trading system that combines deep learning with reinforcement learning to predict market movements and execute trades. I designed and implemented a hybrid architecture using a Bidirectional LSTM for price forecasting and a Deep Q-Network for action optimization. The system achieved 94.2% prediction accuracy, a 2.52 Sharpe ratio, and a 79.4% win rate across 26+ experiments. Built with PyTorch and deployed on Vercel, the project features a live dashboard for visualizing trading decisions, performance, and risk metrics. Full implementation is open-source and integrates custom risk management logic, real-time data pipelines, and an interactive web demo.",
+        "EvoScope is an advanced AI trading system that combines cutting-edge machine learning techniques for autonomous financial trading. The system features a sophisticated architecture with LSTM models for time-series prediction and reinforcement learning agents for intelligent decision-making. Built with real-time data processing capabilities, EvoScope initializes multiple AI models simultaneously to analyze market patterns, execute trades, and optimize portfolio performance. The platform showcases the evolution of algorithmic trading through deep learning, featuring a sleek interface that visualizes model initialization, trading decisions, and performance metrics in real-time.",
              tags: ["PyTorch", "LSTM", "Deep Q-Network", "RL", "Trading", "Blockchain", "Crypto", "ML/AI"],
              imageSrc: "/trading-dashboard.png",
       links: {
-        live: "https://rl-lstm-ai-trading-agent-3kuk24u4s-mohsin-khawajas-projects.vercel.app/",
+        live: "https://evoscope.vercel.app/",
         report: "/rl-lstm-trading-report.pdf",
       },
       metrics: {
