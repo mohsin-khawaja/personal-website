@@ -109,30 +109,13 @@ const Portfolio = () => {
       imageSrc: "/interestingsoup.png",
       links: {
         // github: "#",
-        live: "https://interestingsoup.com/",
+        live: "https://www.tiktok.com/@interestingsoup",
       },
       metrics: {
         // reliability: "+50%",
         // latency: "-27%",
         // "cognitive load": "-40%",
       },
-    },
-    {
-      id: "03",
-      title: "Muslim Tech Collaborative @ UC San Diego",
-      subtitle: "Founder & VP",
-      period: "May 2023 - June 2024",
-      description:
-        "Founded and led a student organization focused on empowering Muslim students in tech. Secured funding for events and managed logistics across workshops, speaker sessions, and networking socials. Organized hands-on workshops covering web development and machine learning to help students build practical skills and portfolios. Created inclusive social events to foster community and connect members with industry professionals.",
-      tags: ["Leadership", "Networking", "Finance", "Computer Science", "Entrepreneurship"],
-      imageSrc: "/mtc-ucsd.png",
-      links: {
-        live: "https://www.muslimtech.org/",
-      },
-      metrics: {
-        "members reached": "100+",
-        "events organized": "15+"
-      }
     },
   ];
 
