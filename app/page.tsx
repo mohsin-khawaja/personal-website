@@ -232,14 +232,7 @@ const Portfolio = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="max-w-7xl mx-auto px-4 py-32 z-20"
           >
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.3 }}
-              className="mono text-sm text-gray-500 mb-4 tracking-widest"
-            >
-              PERSISTENCE & INNOVATION
-            </motion.div>
+
             <div className="flex items-center space-x-6 mb-8">
               <div className="bg-zinc-900/60 rounded-full p-1 shadow-lg">
                 <img
