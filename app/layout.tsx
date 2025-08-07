@@ -2,12 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { JetBrains_Mono } from "next/font/google";
 
-const jetbrainsMono = JetBrains_Mono({ 
-  subsets: ["latin"],
-  display: 'swap',
-  preload: true,
-  variable: '--font-jetbrains-mono'
-});
+const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Mohsin Khawaja",
@@ -15,15 +10,6 @@ export const metadata: Metadata = {
   icons: {
     icon: '/favicon.ico',
   },
-  other: {
-    'color-scheme': 'dark',
-  },
-};
-
-export const viewport = {
-  width: 'device-width',
-  initialScale: 1,
-  maximumScale: 1,
 };
 
 export default function RootLayout({
@@ -33,9 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${jetbrainsMono.className} ${jetbrainsMono.variable}`} suppressHydrationWarning>
-        {children}
-      </body>
+      <body className={jetbrainsMono.className}>{children}</body>
     </html>
   );
 }
