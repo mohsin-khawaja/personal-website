@@ -1,3 +1,4 @@
+// Original navbar without library - force fresh deployment
 const Navbar = () => {
   return (
     <nav className="fixed w-full z-40 backdrop-blur-md">
