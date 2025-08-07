@@ -233,19 +233,19 @@ const Portfolio = () => {
             className="max-w-7xl mx-auto px-4 py-32 z-20"
           >
 
-            <div className="flex items-center space-x-6 mb-8">
-              <div className="bg-zinc-900/60 rounded-full p-1 shadow-lg">
+            <div className="flex flex-col md:flex-row items-center md:items-center space-y-6 md:space-y-0 md:space-x-6 mb-8">
+              <div className="bg-zinc-900/60 rounded-full p-1 shadow-lg flex-shrink-0">
                 <img
                   src="/mohsin-new.jpg"
                   alt="Mohsin Khawaja"
-                  className="w-48 h-48 rounded-full object-cover object-[50%_55%] border-2 border-violet-400"
+                  className="profile-image w-32 h-32 md:w-48 md:h-48 rounded-full object-cover object-[50%_55%] border-2 border-violet-400"
                 />
               </div>
               <motion.h1
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.4 }}
-                className="text-5xl md:text-7xl font-extralight tracking-tight leading-tight"
+                className="text-4xl md:text-5xl lg:text-7xl font-extralight tracking-tight leading-tight text-center md:text-left"
               >
                 Hey, I'm Mohsin
               </motion.h1>
@@ -254,7 +254,7 @@ const Portfolio = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.5 }}
-              className="text-gray-400 text-xl md:text-2xl max-w-2xl mb-8 font-light"
+              className="text-gray-400 text-lg md:text-xl lg:text-2xl max-w-2xl mb-8 font-light text-center md:text-left mx-auto md:mx-0"
             >
              I am a builder, I create software, engage in entrepreneurial ventures, lead communities, and challenge myself through fitness.
             </motion.p>
