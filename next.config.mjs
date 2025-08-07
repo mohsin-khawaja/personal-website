@@ -3,11 +3,6 @@ const nextConfig = {
   // Optimize images and fonts
   optimizeFonts: true,
   
-  // Enable experimental features for better performance
-  experimental: {
-    optimizeCss: true,
-  },
-  
   // Ensure consistent builds
   generateEtags: false,
   
