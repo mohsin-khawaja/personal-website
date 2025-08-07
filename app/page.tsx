@@ -700,6 +700,135 @@ const Portfolio = () => {
           </div>
         </section>
 
+        <section id="library" className="relative min-h-screen py-32">
+          <div className="max-w-7xl mx-auto px-4 z-20 relative">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="space-y-4 pb-4"
+            >
+              <div className="mono text-sm text-gray-500 mb-4 tracking-widest">
+                MY LIBRARY
+              </div>
+              <h2 className="text-4xl md:text-5xl font-extralight mb-16 tracking-tight">
+                Books I've Read
+              </h2>
+            </motion.div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {/* The Clear Quran */}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+                className="relative aspect-[3/4] rounded-lg overflow-hidden bg-gray-800/30 backdrop-blur-md border border-gray-800/30"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <img
+                  src="/clearquran.jpg"
+                  alt="The Clear Quran Cover"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                  <div className="text-white text-sm font-medium">The Clear Quran</div>
+                  <div className="text-gray-300 text-xs mt-1">A modern English translation of the Quran with clear, accessible language and comprehensive commentary.</div>
+                </div>
+              </motion.div>
+
+              {/* Humans and AI */}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+                className="relative aspect-[3/4] rounded-lg overflow-hidden bg-gray-800/30 backdrop-blur-md border border-gray-800/30"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <img
+                  src="/humansandai.jpg"
+                  alt="Humans and AI Cover"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                  <div className="text-white text-sm font-medium">Humans and AI</div>
+                  <div className="text-gray-300 text-xs mt-1">Exploring the intersection of human intelligence and artificial intelligence in modern society.</div>
+                </div>
+              </motion.div>
+
+              {/* Reality Transurfing */}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+                className="relative aspect-[3/4] rounded-lg overflow-hidden bg-gray-800/30 backdrop-blur-md border border-gray-800/30"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <img
+                  src="/realitytransurfing.jpg"
+                  alt="Reality Transurfing Steps I-V Cover"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                  <div className="text-white text-sm font-medium">Reality Transurfing Steps I-V</div>
+                  <div className="text-gray-300 text-xs mt-1">A comprehensive guide to the Reality Transurfing methodology, exploring consciousness and reality manipulation.</div>
+                </div>
+              </motion.div>
+
+              {/* Sayings of Imam Ali */}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+                className="relative aspect-[3/4] rounded-lg overflow-hidden bg-gray-800/30 backdrop-blur-md border border-gray-800/30"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <img
+                  src="/sayingsofimamali.jpg"
+                  alt="Sayings and Wisdom of Imam Ali Cover"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                  <div className="text-white text-sm font-medium">Sayings and Wisdom of Imam Ali</div>
+                  <div className="text-gray-300 text-xs mt-1">A collection of profound wisdom and spiritual guidance from Imam Ali ibn Abi Talib.</div>
+                </div>
+              </motion.div>
+
+              {/* A Thousand Brains */}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+                className="relative aspect-[3/4] rounded-lg overflow-hidden bg-gray-800/30 backdrop-blur-md border border-gray-800/30"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <img
+                  src="/athousandbrains.jpg"
+                  alt="A Thousand Brains Cover"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                  <div className="text-white text-sm font-medium">A Thousand Brains</div>
+                  <div className="text-gray-300 text-xs mt-1">A new theory of intelligence exploring how the brain creates a model of the world.</div>
+                </div>
+              </motion.div>
+
+              {/* The Kingdom of the Heart */}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+                className="relative aspect-[3/4] rounded-lg overflow-hidden bg-gray-800/30 backdrop-blur-md border border-gray-800/30"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <img
+                  src="/thekingdomoftheheart.jpg"
+                  alt="The Kingdom of the Heart Cover"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                  <div className="text-white text-sm font-medium">The Kingdom of the Heart</div>
+                  <div className="text-gray-300 text-xs mt-1">A spiritual journey exploring the depths of the human heart and its connection to divine love.</div>
+                </div>
+              </motion.div>
+            </div>
+          </div>
+        </section>
+
         <footer className="border-t border-gray-800/20">
           <div className="max-w-7xl mx-auto px-4 py-8">
             <div className="text-sm text-gray-500">
