@@ -772,7 +772,7 @@ const Portfolio = () => {
                 </div>
               </motion.div>
 
-              {/* Sayings of Imam Ali */}
+              {/* Atomic Habits */}
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
@@ -780,13 +780,13 @@ const Portfolio = () => {
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <img
-                  src="/sayingsofimamali.jpg"
-                  alt="Sayings and Wisdom of Imam Ali Cover"
+                  src="/atomic habits.png"
+                  alt="Atomic Habits Cover"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
-                  <div className="text-white text-sm font-medium">Sayings and Wisdom of Imam Ali</div>
-                  <div className="text-gray-300 text-xs mt-1">A collection of profound wisdom and spiritual guidance from Imam Ali ibn Abi Talib.</div>
+                  <div className="text-white text-sm font-medium">Atomic Habits</div>
+                  <div className="text-gray-300 text-xs mt-1">An easy and proven way to build good habits and break bad ones. Tiny changes, remarkable results.</div>
                 </div>
               </motion.div>
 
