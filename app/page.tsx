@@ -710,7 +710,7 @@ const Portfolio = () => {
               className="space-y-4 pb-4"
             >
               <div className="mono text-sm text-gray-500 mb-4 tracking-widest">
-                Books I've Read
+                BOOKS I'VE READ
               </div>
               <h2 className="text-4xl md:text-5xl font-extralight mb-16 tracking-tight">
                 MY LIBRARY
