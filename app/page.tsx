@@ -780,7 +780,7 @@ const Portfolio = () => {
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <img
-                  src="/atomichabits 2.png"
+                  src="/atomichabits-2.png"
                   alt="Atomic Habits Cover"
                   className="w-full h-full object-cover"
                 />
