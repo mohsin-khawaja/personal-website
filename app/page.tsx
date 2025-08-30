@@ -709,11 +709,11 @@ const Portfolio = () => {
               transition={{ duration: 0.5 }}
               className="space-y-4 pb-4"
             >
-              <div className="mono text-sm text-gray-500 mb-4 tracking-widest">
-                MY LIBRARY
-              </div>
-              <h2 className="text-4xl md:text-5xl font-extralight mb-16 tracking-tight">
+              <div className="mono text-xs text-gray-500 mb-2 tracking-widest">
                 Books I've Read
+              </div>
+              <h2 className="text-4xl md:text-5xl font-bold mb-16 tracking-tight">
+                MY LIBRARY
               </h2>
             </motion.div>
 
