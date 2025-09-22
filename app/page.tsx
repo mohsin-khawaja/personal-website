@@ -238,7 +238,7 @@ const Portfolio = () => {
                 <img
                   src="/mohsinpfp.jpg"
                   alt="Mohsin Khawaja"
-                  className="w-48 h-48 rounded-full object-cover object-[50%_55%] border-2 border-violet-400"
+                  className="w-48 h-48 rounded-full object-cover object-[50%_35%] border-2 border-violet-400 scale-110"
                 />
               </div>
               <motion.h1
