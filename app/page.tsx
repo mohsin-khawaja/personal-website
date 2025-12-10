@@ -83,9 +83,43 @@ const Portfolio = () => {
   const experiences: Array<ProjectCardProps> = [
     {
       id: "01",
+      title: "Aviz Networks",
+      subtitle: "AI Engineer Intern",
+      period: "Nov 2025 - Present",
+      description:
+        "Developing autonomous AI agents for enterprise networking using LLM reasoning, RAG, and automation. Contributing to Network Co-Pilot Sync (NCP) to integrate AI with SONiC-based observability and cloud networking workflows. Building workflow automation tools for knowledge retrieval, configuration recommendation, and incident triage. Collaborating cross-functionally with networking engineers to align AI agent outputs with real system constraints and device-level telemetry.",
+      tags: ["AI Agents", "LLM", "RAG", "Automation", "SONiC", "Enterprise Networking"],
+      imageSrc: "/aviz-logo.svg",
+      links: {
+        live: "https://aviznetworks.com/",
+      },
+      metrics: {
+        "AI agent workflows": "3+",
+        "network automation": "enterprise-scale"
+      },
+    },
+    {
+      id: "02",
+      title: "Amazon",
+      subtitle: "Data Analyst (Contract)",
+      period: "Jun 2025 - Aug 2025",
+      description:
+        "Built analytics pipeline processing 12K+ employee feedback entries across global regions. Used NLP sentiment classification (91% accuracy) to generate insights for HR policy decisions. Developed employee persona clusters to identify engagement trends and pain points across distributed org structures. Presented findings to senior HR leadership influencing Q3 employee support strategy.",
+      tags: ["Python", "SQL", "NLP", "Data Analytics", "Sentiment Analysis"],
+      imageSrc: "/amazonlogo.jpg",
+      links: {
+        live: "https://www.amazon.com/",
+      },
+      metrics: {
+        "feedback entries processed": "12K+",
+        "sentiment accuracy": "91%"
+      },
+    },
+    {
+      id: "03",
       title: "UC Berkeley College of Engineering",
       subtitle: "Machine Learning Engineer & Nanotech Researcher / Intern",
-      period: "June 2024 - Present",
+      period: "June 2024 - June 2025",
       description:
         "Conducted research on an exoskeleton project. Co-developed a machine learning algorithm using EEG brainwave data to detect user intent and improve motion control. Also built real-time signal classification models using Python, scikit-learn, TensorFlow, and MNE-Python, supporting neurotech applications for mobility and accessibility.",
       tags: ["Python", "TensorFlow", "scikit-learn", "ML/AI"],
@@ -99,10 +133,10 @@ const Portfolio = () => {
       },
     },
     {
-      id: "02",
+      id: "04",
       title: "InterestingSoup",
       subtitle: "Software Engineering Intern",
-      period: "June 2021 - January 2022",
+      period: "May 2023 - August 2023",
       description:
         "Engineered and deployed scalable RESTful APIs using Python and Flask, reducing response time by 30% and supporting a 20% increase in concurrent users and implemented full-stack development. Partnered with cross-functional teams to build and integrate a real-time analytics dashboard using React and Chart.js, enhancing data visibility and enabling faster decision-making.",
       tags: ["Browser Agents", "Full-Stack Development", "React", "Python", "Flask"],

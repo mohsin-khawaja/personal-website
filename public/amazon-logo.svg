@@ -1,0 +1,9 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#FF9900"/>
+  
+  <!-- Amazon smile/arrow -->
+  <path d="M50 120 Q100 80 150 120" stroke="white" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Arrow tip -->
+  <path d="M140 110 L150 120 L140 130" stroke="white" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
