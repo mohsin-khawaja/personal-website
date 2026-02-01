@@ -132,25 +132,6 @@ const Portfolio = () => {
         "response time": "<100ms"
       },
     },
-    {
-      id: "04",
-      title: "InterestingSoup",
-      subtitle: "Software Engineering Intern",
-      period: "May 2023 - August 2023",
-      description:
-        "Engineered and deployed scalable RESTful APIs using Python and Flask, reducing response time by 30% and supporting a 20% increase in concurrent users and implemented full-stack development. Partnered with cross-functional teams to build and integrate a real-time analytics dashboard using React and Chart.js, enhancing data visibility and enabling faster decision-making.",
-      tags: ["Browser Agents", "Full-Stack Development", "React", "Python", "Flask"],
-      imageSrc: "/interestingsoup.png",
-      links: {
-        // github: "#",
-        live: "https://www.tiktok.com/@interestingsoup",
-      },
-      metrics: {
-        // reliability: "+50%",
-        // latency: "-27%",
-        // "cognitive load": "-40%",
-      },
-    },
   ];
 
   const projects: Array<ProjectCardProps> = [
