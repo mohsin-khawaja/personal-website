@@ -33,7 +33,9 @@ const Navbar = () => {
               </span>
             </a>
             <a
-              href="#"
+              href="/Mohsin_Khawaja_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group flex items-center gap-2 text-gray-400 hover:text-white transition-colors relative"
             >
               <span className="relative">
