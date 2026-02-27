@@ -85,10 +85,10 @@ const Portfolio = () => {
       id: "01",
       title: "Aviz Networks",
       subtitle: "AI Engineer Intern",
-      period: "Nov 2025 - Present",
+      period: "Oct 2025 - Present",
       description:
         "Developing autonomous AI agents for enterprise networking using LLM reasoning, RAG, and automation. Contributing to Network Co-Pilot Sync (NCP) to integrate AI with SONiC-based observability and cloud networking workflows. Building workflow automation tools for knowledge retrieval, configuration recommendation, and incident triage. Collaborating cross-functionally with networking engineers to align AI agent outputs with real system constraints and device-level telemetry.",
-      tags: ["AI Agents", "LLM", "RAG", "Automation", "SONiC", "Enterprise Networking"],
+      tags: ["AI Agents", "LLM", "RAG", "MCP", "Automation", "SONiC", "Enterprise Networking"],
       imageSrc: "/aviz-logo.svg",
       links: {
         live: "https://aviznetworks.com/",
@@ -838,6 +838,60 @@ const Portfolio = () => {
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
                   <div className="text-white text-sm font-medium">The Kingdom of the Heart</div>
                   <div className="text-gray-300 text-xs mt-1">A spiritual journey exploring the depths of the human heart and its connection to divine love.</div>
+                </div>
+              </motion.div>
+
+              {/* Meditations */}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+                className="relative aspect-[3/4] rounded-lg overflow-hidden bg-gray-800/30 backdrop-blur-md border border-gray-800/30"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <img
+                  src="/meditations.jpg"
+                  alt="Meditations Cover"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                  <div className="text-white text-sm font-medium">Meditations</div>
+                  <div className="text-gray-300 text-xs mt-1">Personal writings by Roman Emperor Marcus Aurelius on Stoic philosophy, self-discipline, and the pursuit of virtue.</div>
+                </div>
+              </motion.div>
+
+              {/* The Kite Runner */}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+                className="relative aspect-[3/4] rounded-lg overflow-hidden bg-gray-800/30 backdrop-blur-md border border-gray-800/30"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <img
+                  src="/kiterunner.jpg"
+                  alt="The Kite Runner Cover"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                  <div className="text-white text-sm font-medium">The Kite Runner</div>
+                  <div className="text-gray-300 text-xs mt-1">Khaled Hosseini's powerful tale of friendship, betrayal, and redemption set against the backdrop of Afghanistan's tumultuous history.</div>
+                </div>
+              </motion.div>
+
+              {/* The Autobiography of Malcolm X */}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.3 }}
+                className="relative aspect-[3/4] rounded-lg overflow-hidden bg-gray-800/30 backdrop-blur-md border border-gray-800/30"
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <img
+                  src="/malcolmx.jpg"
+                  alt="The Autobiography of Malcolm X Cover"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
+                  <div className="text-white text-sm font-medium">The Autobiography of Malcolm X</div>
+                  <div className="text-gray-300 text-xs mt-1">As told to Alex Haley, a powerful account of Malcolm X's journey from troubled youth to influential civil rights leader.</div>
                 </div>
               </motion.div>
             </div>
