@@ -140,7 +140,7 @@ const Portfolio = () => {
       description:
         "Developed backend services for computer vision deployment in industrial automation and monitoring. Implemented APIs and data pipelines for model inference and scalable image processing. Shipped production features improving reliability of vision-based detection pipelines.",
       tags: ["Computer Vision", "Backend", "APIs", "Data Pipelines", "Python"],
-      imageSrc: "/matroid.png",
+      imageSrc: "/matroid_logo.png",
       links: {
         live: "https://www.matroid.com/",
       },
