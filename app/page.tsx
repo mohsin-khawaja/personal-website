@@ -84,7 +84,7 @@ const Portfolio = () => {
     {
       id: "01",
       title: "Aviz Networks",
-      subtitle: "AI Engineer Intern",
+      subtitle: "AI Engineer",
       period: "Oct 2025 - Present",
       description:
         "Developing autonomous AI agents for enterprise networking using LLM reasoning, RAG, and automation. Contributing to Network Co-Pilot Sync (NCP) to integrate AI with SONiC-based observability and cloud networking workflows. Building workflow automation tools for knowledge retrieval, configuration recommendation, and incident triage. Collaborating cross-functionally with networking engineers to align AI agent outputs with real system constraints and device-level telemetry.",
