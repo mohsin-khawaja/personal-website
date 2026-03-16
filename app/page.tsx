@@ -132,6 +132,23 @@ const Portfolio = () => {
         "response time": "<100ms"
       },
     },
+    {
+      id: "04",
+      title: "Matroid",
+      subtitle: "Software Engineer Intern",
+      period: "June 2023 - Aug 2023",
+      description:
+        "Developed backend services for computer vision deployment in industrial automation and monitoring. Implemented APIs and data pipelines for model inference and scalable image processing. Shipped production features improving reliability of vision-based detection pipelines.",
+      tags: ["Computer Vision", "Backend", "APIs", "Data Pipelines", "Python"],
+      imageSrc: "/matroid.png",
+      links: {
+        live: "https://www.matroid.com/",
+      },
+      metrics: {
+        "production features": "shipped",
+        "focus": "industrial automation"
+      },
+    },
   ];
 
   const projects: Array<ProjectCardProps> = [
