@@ -894,7 +894,7 @@ const Portfolio = () => {
                 </div>
               </motion.div>
 
-              {/* The Autobiography of Malcolm X */}
+              {/* The Alchemy of Happiness */}
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
@@ -902,13 +902,13 @@ const Portfolio = () => {
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-violet-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <img
-                  src="/malcolmx.jpg"
-                  alt="The Autobiography of Malcolm X Cover"
+                  src="/alghazali.jpg"
+                  alt="The Alchemy of Happiness Cover"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
-                  <div className="text-white text-sm font-medium">The Autobiography of Malcolm X</div>
-                  <div className="text-gray-300 text-xs mt-1">As told to Alex Haley, a powerful account of Malcolm X's journey from troubled youth to influential civil rights leader.</div>
+                  <div className="text-white text-sm font-medium">The Alchemy of Happiness</div>
+                  <div className="text-gray-300 text-xs mt-1">Al-Ghazali's timeless guide to spiritual fulfillment, exploring the nature of the self, knowledge, and the path to true happiness.</div>
                 </div>
               </motion.div>
             </div>
