@@ -153,22 +153,7 @@ const Portfolio = () => {
 
   const projects: Array<ProjectCardProps> = [
     {
-    id: "01",
-    title: "NeuroFocus",
-    subtitle: "Using EEG and AI to Classify Human Attention States",
-    description:
-        "NeuroFocus is a machine learning project that classifies cognitive attention states—Focused, Distracted, and Overstimulated—by analyzing EEG data from the DEAP dataset. I built a complete ML pipeline that extracts key features from EEG frequency bands (Theta, Alpha, Beta, Gamma) and applies models like SVM, LSTM, and CNN to achieve up to 90% classification accuracy. The system is designed with real-world applications in mind, such as mental focus tracking, neurofeedback, and brain-computer interface (BCI) systems. This project highlights the intersection of neuroscience and AI, showing how neural signal processing can be used for accurate, real-time cognitive state monitoring.",
-    tags: ["EEG", "ML/AI", "Python", "TensorFlow", "scikit-learn"],
-    imageSrc: "/neurofocus.jpg",
-    links: {
-        github: "https://github.com/mohsin-khawaja/NeuroFocus",
-    },
-    metrics: {
-        "classification accuracy": "90%",
-    },
-      },
-    {
-      id: "02",
+      id: "01",
       title: "EvoScope",
       subtitle: "Advanced AI Trading System with LSTM Models & RL Agents",
       description:
@@ -185,6 +170,21 @@ const Portfolio = () => {
         "win rate": "79.4%"
       },
     },
+    {
+    id: "02",
+    title: "NeuroFocus",
+    subtitle: "Using EEG and AI to Classify Human Attention States",
+    description:
+        "NeuroFocus is a machine learning project that classifies cognitive attention states—Focused, Distracted, and Overstimulated—by analyzing EEG data from the DEAP dataset. I built a complete ML pipeline that extracts key features from EEG frequency bands (Theta, Alpha, Beta, Gamma) and applies models like SVM, LSTM, and CNN to achieve up to 90% classification accuracy. The system is designed with real-world applications in mind, such as mental focus tracking, neurofeedback, and brain-computer interface (BCI) systems. This project highlights the intersection of neuroscience and AI, showing how neural signal processing can be used for accurate, real-time cognitive state monitoring.",
+    tags: ["EEG", "ML/AI", "Python", "TensorFlow", "scikit-learn"],
+    imageSrc: "/neurofocus.jpg",
+    links: {
+        github: "https://github.com/mohsin-khawaja/NeuroFocus",
+    },
+    metrics: {
+        "classification accuracy": "90%",
+    },
+      },
     {
       id: "03",
       title: "LLM Sensitivity Evaluation in Political Contexts",
